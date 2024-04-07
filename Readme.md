@@ -59,3 +59,5 @@ const sub = (a, b) => {
 module.exports.add = add;
 module.exports.sub = sub;
 ```
+
+We cannot export boolean, number, string, null, undefined, objects, and arrays while defining.
